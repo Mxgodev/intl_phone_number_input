@@ -121,6 +121,7 @@ class SelectorButton extends StatelessWidget {
     return showDialog(
       context: context,
       barrierDismissible: true,
+      useRootNavigator: selectorConfig.useRootNavigator,
       builder: (BuildContext context) => AlertDialog(
         content: Container(
           width: double.maxFinite,
