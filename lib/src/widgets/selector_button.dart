@@ -156,6 +156,9 @@ class SelectorButton extends StatelessWidget {
             onTap: () => Navigator.pop(context),
           ),
           DraggableScrollableSheet(
+            minChildSize: 0.6,
+            maxChildSize: 0.9,
+            initialChildSize: 0.7,
             builder: (BuildContext context, ScrollController controller) {
               return Container(
                 decoration: ShapeDecoration(
