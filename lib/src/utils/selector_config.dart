@@ -38,6 +38,12 @@ class SelectorConfig {
 
   final bool useRootNavigator;
 
+  final bool showCountryCode;
+
+  final EdgeInsetsGeometry buttonPadding;
+
+  final ShapeBorder? buttonShape;
+
   const SelectorConfig({
     this.useRootNavigator = false,
     this.selectorType = PhoneInputSelectorType.DROPDOWN,
@@ -48,5 +54,8 @@ class SelectorConfig {
     this.leadingPadding,
     this.trailingSpace = true,
     this.useBottomSheetSafeArea = false,
+    this.showCountryCode = true,
+    this.buttonPadding = const EdgeInsets.only(right: 8),
+    this.buttonShape,
   });
 }
