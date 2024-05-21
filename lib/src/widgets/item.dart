@@ -46,7 +46,7 @@ class Item extends StatelessWidget {
             Icons.arrow_drop_down,
           ),
           Padding(
-            padding: EdgeInsetsDirectional.only(bottom: 1, end: 4),
+            padding: EdgeInsetsDirectional.only(end: 4),
             child: Text(
               '$dialCode',
               textDirection: TextDirection.ltr,
